@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гра</title>
+  <link rel="stylesheet" href="face.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="greeting">Покер</h1>
+    <div class="scoreboard">
+      <div class="player">
+        <p class="player-name">Користувач</p>
+        <p class="player-score" id="userScore">0</p>
+        <img id="user-card" src="images/placeholder.jpg" alt="User Card">
+      </div>
+      <div class="player">
+        <p class="player-name">Компʼютер</p>
+        <p class="player-score" id="computerScore">0</p>
+        <img id="computer-card" src="images/placeholder.jpg" alt="Computer Card">
+      </div>
+    </div>
+    <div class="numbers">
+      <button id="Button">Грати</button>
+    </div>
+    <p id="attempts">Спроба 1 з 3</p>
+    <div id="gameResult" class="result">
+      <h3>Результат: </h3>
+      <p id="winner">Чекайте на Результат</p>
+    </div>
+
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
